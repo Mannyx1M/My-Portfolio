@@ -1,0 +1,92 @@
+body {
+    background: #fff0f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 40px;
+}
+
+h1 {
+    color: #171717;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #131313;
+    text-align: center;
+    font-style: italic;
+}
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h3 {
+    color: #574949;
+    text-align: center;
+    font-style: italic;
+}
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    /*border-right: 1px solid #333;*/
+    white-space:nowrap; /* keep text on one line */
+    width: 0;
+    animation: typing 6s steps(180, end) forwards, blink 0.7s step-end infinite;
+}
+
+
+/* typing effect */
+@keyframes typing {
+    from { width:0 }
+    to { width: 100% }
+}
+
+/* blinking cursor */
+@keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: #333 }
+}
+a:hover {
+    color: #e60023;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    /*width: 100%;
+    max-width: 500px;*/
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #e60023;
+    border-radius: 0px;
+    word-break: break-word;
+}
+.red-paragraph{
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fed9a4;
+    border: 2px solid #e60023;
+    border-radius: 5px;
+}
+.black-paragraph{
+    font-size: 1.2em;
+    line-height: 1.6;
+    width: 100%;
+    color: #131313;
+    background: white;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    /* REMOVE white-space: nowrap; */
+    /* REMOVE overflow-x: auto; */
+    word-break: break-word; /* optional: prevents overflow on long words */
+}
